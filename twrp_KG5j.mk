@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from KG5j device
-$(call inherit-product, device/tecno/KG7h/device.mk)
+$(call inherit-product, device/tecno/KG5j/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
