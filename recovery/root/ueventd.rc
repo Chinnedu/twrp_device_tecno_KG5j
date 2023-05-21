@@ -55,7 +55,9 @@
 
 # Trusty driver
 /dev/trusty-ipc-dev0      0660   system     system
-/dev/nebula-ipc-dev0      0660   system     system
+
+# RPMB (for Trusty)
+/dev/block/mmcblk0rpmb    0660   root       system
 
 # TrustonicTEE driver
 /dev/mobicore             0600   system     system
@@ -121,7 +123,7 @@
 /dev/mali                 0666   system     graphics
 
 # Change ION driver permission
-/dev/ion                  0664   system     graphics
+/dev/ion                  0666   system     graphics
 
 #touch
 /dev/touch                0660   root       system
