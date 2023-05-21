@@ -14,7 +14,6 @@ vendor.mediatek.hardware.fm::IFmRadio u:object_r:mtk_hal_fm_hwservice:s0
 vendor.mediatek.hardware.log::ILog u:object_r:mtk_hal_log_hwservice:s0
 vendor.mediatek.hardware.engineermode::IEmd u:object_r:mtk_hal_em_hwservice:s0
 vendor.mediatek.hardware.mms::IMms u:object_r:mtk_hal_mms_hwservice:s0
-vendor.mediatek.hardware.mmagent::IMMAgent u:object_r:mtk_hal_mmagent_hwservice:s0
 vendor.mediatek.hardware.gpu::IGraphicExt u:object_r:mtk_hal_gpu_hwservice:s0
 vendor.mediatek.hardware.modemdbfilter::ICopyDBFilter u:object_r:mtk_hal_md_dbfilter_hwservice:s0
 vendor.mediatek.hardware.camera.lomoeffect::ILomoEffect u:object_r:hal_camera_hwservice:s0
@@ -64,7 +63,6 @@ vendor.mediatek.hardware.apuware.apusys::INeuronApusys u:object_r:hal_neuralnetw
 vendor.mediatek.hardware.apuware.xrp::INeuronXrp u:object_r:hal_neuralnetworks_hwservice:s0
 vendor.mediatek.hardware.vpu::Ivpu u:object_r:hal_neuralnetworks_hwservice:s0
 vendor.mediatek.hardware.apuware.utils::IApuwareUtils u:object_r:hal_neuralnetworks_hwservice:s0
-vendor.mediatek.hardware.apuware.hmp::IApuwareHmp u:object_r:hal_neuralnetworks_hwservice:s0
 vendor.transsion.hardware.tne.tneengine::ITne u:object_r:hal_tnev_hwservice:s0
 vendor.transsion.hardware.trancam.trancamserver::ITrancamserver u:object_r:hal_trancamserver_hwservice:s0
 vendor.transsion.hardware.tranlog::ITranLog u:object_r:hal_tranlog_hwservice:s0
@@ -72,7 +70,8 @@ vendor.transsion.hardware.tranlogconfig::ITranLogConfig u:object_r:hal_tranlogco
 vendor.transsion.hardware.rm::IResMonitor u:object_r:hal_rm_hwservice:s0
 vendor.silead.hardware.fingerprintext::ISileadFingerprint  u:object_r:hal_fingerprint_hwservice:s0
 vendor.mediatek.hardware.biometrics.fingerprint::ITranBiometricsFingerprint u:object_r:hal_fingerprint_hwservice:s0
-vendor.fpsensor.hardware.fpsensorhidlsvc::IFpsensorHidlSvc u:object_r:fp_ext_svc2_service:s0
+vendor.sw.swfingerprint::ISwfingerprint u:object_r:hal_swfingerprint_hwservice:s0
+vendor.focaltech.fingerprint::IFocalFingerprintService u:object_r:ff_hwservice:s0
 vendor.mediatek.hardware.tranHwInfo::ITranHwInfo u:object_r:tran_hwinfo_binder_hwservice:s0
 android.hardware.paytrigger::Ipaytrigger         u:object_r:hal_paytrigger_hwservice:s0
 vendor.mediatek.hardware.paytrigger::IPayTrigger         u:object_r:hal_paytrigger_hwservice:s0
