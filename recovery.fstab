@@ -39,8 +39,8 @@ product             /product         ext4      ro     wait,slotselect,avb,logica
 /proinfo	    emmc	/dev/block/by-name/proinfo          flags=display="Proinfo";backup=1
 
 # Non-Volatile (RAM | DATA | CFG)
-/nvcfg		    ext4	/dev/block/by-name/nvcfg            flags=display="NvCfg";backup=1
-/nvdata		    ext4	/dev/block/by-name/nvdata           flags=display="NvData";backup=1
+/nvcfg		    ext4	/dev/block/by-name/nvcfg            flags=display="NvCfg";backup=1;flashimg=1
+/nvdata		    ext4	/dev/block/by-name/nvdata           flags=display="NvData";backup=1;flashimg=1
 /nvram		    emmc	/dev/block/by-name/nvram            flags=display="NvRam";backup=1;flashimg=1
 
 # Subscriber Identification Module (SIM)
@@ -68,5 +68,5 @@ product             /product         ext4      ro     wait,slotselect,avb,logica
 /sspm		    emmc	/dev/block/by-name/sspm           flags=display="sspm";backup=1;slotselect
 
 # External-Devices (SDCARD | OTG)
-/external_sd    auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="External_SDcard";storage;wipeingui;removable;fsflags="utf8"
+/external_sd    auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="External_SD";storage;wipeingui;removable;fsflags="utf8"
 /usbotg        auto     /dev/block/mmcblk1p2  /dev/block/mmcblk1p2                     flags=display="Usb_Otg";storage;wipeingui;removable;fsflags="utf8"
